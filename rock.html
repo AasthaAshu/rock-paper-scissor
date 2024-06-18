@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock-paper-scissor</title>
+    <link rel="stylesheet" href="rock.css">
+</head>
+<body>
+   <h1>ROCK PAPER SCISSOR</h2> 
+
+    <div class="game">
+        <div>
+          <button type="image" class="choice" id="rock" disabled >
+            <img src="rock.jpg" alt="">
+          </button>
+        </div>
+        <div >
+          <button type="image" class="choice" id="paper" disabled >
+            <img src="paper.jpg" alt="">
+          </button>
+        </div>
+        <div >
+          <button type="image" class="choice" id="scissor" disabled >
+            <img src="scissor.jpg" alt="">
+          </button>
+        </div>
+    </div>
+
+  <div class="score-board">
+      <div class="score">
+        <p id="p1-score">0</p>
+        <p>PLAYER</p>
+      </div>
+      <div class="score">
+        <p id="p2-score">0</p>
+        <p> COMPUTER</p>
+      </div>
+  </div>
+ 
+  <div class="but1">
+    <button id="b1">START</button>
+  </div>
+
+  <div class="but2 bb" >
+    <button id="b2">RESTART</button>
+  </div> 
+ 
+   <script src="rock.js"></script>
+</body>
+</html>
